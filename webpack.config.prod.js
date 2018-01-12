@@ -3,7 +3,7 @@ var path = require("path");
 var BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin;
 var CompressionPlugin = require("compression-webpack-plugin");
-var buildPath = path.resolve(__dirname, "./build");
+var buildPath = path.resolve(__dirname, ".");
 var nodeModulesPath = path.resolve(__dirname, "node_modules");
 
 process.traceDeprecation = true;

@@ -3,7 +3,6 @@
 /stories
 
 .gitignore
-package.json
 package.lock.json
 README.md
 webpack.config.prod.js
