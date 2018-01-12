@@ -1,0 +1,41 @@
+{
+  "name": "redux-resize",
+  "version": "0.0.1",
+  "author": "ysfzrn",
+  "description": "detect screen size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js -p",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "analyse": "cross-env NODE_ENV=production cross-env NODE_ENV_ANALYSE=analyse webpack --config webpack.config.prod.js -p"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.3",
+    "@storybook/addon-info": "^3.4.0-alpha.1",
+    "@storybook/addon-links": "^3.3.3",
+    "@storybook/react": "^3.3.3",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-react-app": "^3.1.0",
+    "compression-webpack-plugin": "^1.1.3",
+    "cross-env": "^5.1.3",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "webpack": "^3.10.0",
+    "webpack-bundle-analyzer": "^2.9.2",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
