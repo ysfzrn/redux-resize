@@ -1,6 +1,6 @@
 {
   "name": "redux-resize",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "ysfzrn",
   "description": "Keep your media type and screen size in sync with application state",
   "main": "index.js",
@@ -11,6 +11,19 @@
     "build-storybook": "build-storybook",
     "analyse": "cross-env NODE_ENV=production cross-env NODE_ENV_ANALYSE=analyse webpack --config webpack.config.prod.js -p"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysfzrn/redux-resize.git"
+  },
+  "keywords": [
+    "media",
+    "screen",
+    "width",
+    "react-component",
+    "redux",
+    "react-redux"
+  ],
+  "homepage": "https://github.com/ysfzrn/redux-resize#readme",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
