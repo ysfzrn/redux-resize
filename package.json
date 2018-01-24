@@ -1,8 +1,8 @@
 {
   "name": "redux-resize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "ysfzrn",
-  "description": "detect screen size",
+  "description": "Keep your media type and screen size in sync with application state",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

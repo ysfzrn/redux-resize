@@ -1,1 +1,1 @@
-The project is under active development
+Keep your media type and screen size in sync with application state

@@ -1,7 +1,7 @@
 import { REDUX_RESIZE_END } from './actions';
 
 const initialState = {
-    screenSize: null,
+    device: null,
     screenWidth: null,
 };
 
@@ -12,7 +12,7 @@ export default function resizeReducer(
     if (type === REDUX_RESIZE_END) {
         return {
             ...state,
-            screenSize: payload.screen,
+            device: payload.screen,
             screenWidth: payload.width,
         };
     }

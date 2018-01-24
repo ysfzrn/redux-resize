@@ -47,7 +47,7 @@ export function ResizeWrapper(Component) {
             return (
                 <Component
                     {...this.props}
-                    screenSize={device}
+                    device={device}
                     screenWidth={screenWidth}
                 />
             );

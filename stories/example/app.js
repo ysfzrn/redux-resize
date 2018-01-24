@@ -9,14 +9,14 @@ class App extends React.Component {
                 <h4>
           Please, resize the screen, so you can see media value will change
                 </h4>
-                <div>{this.props.size.screenSize}-{this.props.size.screenWidth}</div>
+                <div>{this.props.media.device}-{this.props.media.screenWidth}</div>
             </div>
         );
     }
 }
 
 const mapStateToProps = state => ({
-    size: state.ResizeReducer,
+    media: state.ResizeReducer,
 });
 
 export default connect(mapStateToProps)(ConnectedResize(App));
