@@ -1,6 +1,6 @@
 {
   "name": "redux-resize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "ysfzrn",
   "description": "detect screen size",
   "main": "index.js",

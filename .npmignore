@@ -1,8 +1,12 @@
 /node_modules
 /src
 /stories
+/storybook-static
+/.storybook
 
+.eslintrc
 .gitignore
 package.lock.json
 README.md
 webpack.config.prod.js
+yarn.lock
